@@ -1,0 +1,165 @@
+TpTrace Verbose: 0 : 2936, 1, 2021/08/15, 09:55:20.533, 23952032091, testhost.dll, Version: 16.9.4
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.538, 23952074693, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 59094],[--endpoint, 127.0.0.1:059094],[--role, client],[--parentprocessid, 7092],[--diag, C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\coverage-tool-output\diagnostics.host.21-08-15_09-55-20_38117_6.log],[--tracelevel, 4],[--datacollectionport, 59093],[--telemetryoptedin, false]
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.540, 23952093373, testhost.dll, Setting up debug trace listener.
+TpTrace Verbose: 0 : 2936, 1, 2021/08/15, 09:55:20.541, 23952095566, testhost.dll, TestPlatformTraceListener.Setup: Replacing listener 0 with TestHostTraceListener.
+TpTrace Verbose: 0 : 2936, 1, 2021/08/15, 09:55:20.541, 23952096008, testhost.dll, TestPlatformTraceListener.Setup: Added test platform trace listener.
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.541, 23952099708, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '7092'
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.547, 23952165501, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:059094'
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.560, 23952290520, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:059094
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.566, 23952349861, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 59093
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:20.567, 23952360438, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:059094
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.569, 23952377468, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.569, 23952379015, testhost.dll, Trying to connect to server on socket : 127.0.0.1:59093 
+TpTrace Verbose: 0 : 2936, 1, 2021/08/15, 09:55:20.569, 23952382022, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 2936, 10, 2021/08/15, 09:55:20.571, 23952398880, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 2936, 10, 2021/08/15, 09:55:20.571, 23952399821, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.571, 23952401055, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.571, 23952405326, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:20.572, 23952406810, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 2936, 11, 2021/08/15, 09:55:20.572, 23952414544, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:20.682, 23953508167, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.707, 23953756221, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Users\\hp\\source\\repos\\DockerDemo\\DockerDemo.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.21-08-15_09-55-20_38117_6.log"}}
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.707, 23953758963, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.707, 23953763159, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:20.712, 23953809086, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\hp\\source\\repos\\DockerDemo\\DockerDemo.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:20.712, 23953809962, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.718, 23953870671, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.718, 23953871681, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.720, 23953891230, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:20.720, 23953894599, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\hp\\source\\repos\\DockerDemo\\DockerDemo.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\DockerDemo.Test.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\hp\\source\\repos\\DockerDemo\\DockerDemo.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v5.0</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.400\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\hp\\source\\repos\\DockerDemo\\DockerDemo.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:20.720, 23953895354, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.721, 23953904680, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.722, 23953913375, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.723, 23953917280, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.723, 23953917681, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.725, 23953939266, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.726, 23953953624, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.726, 23953954561, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.726, 23953954907, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.726, 23953955127, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.727, 23953955810, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.727, 23953962977, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.731, 23954003821, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.739, 23954080815, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.visualstudio.dotnetcore.testadapter, from path: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:20.740, 23954094937, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.742, 23954114157, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.744, 23954129058, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.utility.netcoreapp10, from path: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.748, 23954173624, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.749, 23954176465, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.749, 23954176968, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.749, 23954177369, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.749, 23954177740, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.749, 23954178076, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954200172, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation2 TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor2
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954202185, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954202564, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954202769, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954204487, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954204839, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954205050, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.751, 23954205413, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954205591, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954205828, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954206108, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954209047, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954209362, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954209603, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954210092, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954210374, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.752, 23954210547, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.755, 23954243034, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.755, 23954244208, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.755, 23954244535, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954250901, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954252662, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954252974, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954253203, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954254082, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954254350, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954254574, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954254734, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954254898, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.756, 23954255066, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954255551, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954257456, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954258026, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954258213, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954258382, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954258611, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.757, 23954258781, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.758, 23954266921, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.758, 23954267303, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.821, 23954901097, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\DockerDemo.Test.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954919743, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954920717, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954921081, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954921276, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954922607, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954922944, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954923133, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954923292, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954923454, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954923626, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.823, 23954924781, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.826, 23954950058, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.826, 23954950957, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.826, 23954951182, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.826, 23954951368, testhost.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.826, 23954951536, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.826, 23954951745, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.832, 23955014453, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\DockerDemo.Test.dll'
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.837, 23955061328, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:20.846, 23955152520, testhost.dll, [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.9)
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:20.846, 23955153698, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.9)"}}
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.116, 23957851808, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.120, 23957893683, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.reporters.netcoreapp10, from path: C:\Users\hp\source\repos\DockerDemo\DockerDemo.Test\bin\Debug\net5.0\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.176, 23958455472, testhost.dll, [xUnit.net 00:00:00.33]   Discovering: DockerDemo.Test
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.177, 23958457762, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.33]   Discovering: DockerDemo.Test"}}
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.209, 23958781373, testhost.dll, [xUnit.net 00:00:00.37]   Discovered:  DockerDemo.Test
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.209, 23958783678, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.37]   Discovered:  DockerDemo.Test"}}
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.211, 23958803750, testhost.dll, [xUnit.net 00:00:00.37]   Starting:    DockerDemo.Test
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.211, 23958804729, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.37]   Starting:    DockerDemo.Test"}}
+TpTrace Verbose: 0 : 2936, 14, 2021/08/15, 09:55:21.253, 23959222846, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: DockerDemo.Test.UnitTest1.Test1.
+TpTrace Verbose: 0 : 2936, 14, 2021/08/15, 09:55:21.286, 23959552686, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: DockerDemo.Test.UnitTest1.Test1.
+TpTrace Verbose: 0 : 2936, 14, 2021/08/15, 09:55:21.306, 23959750425, testhost.dll, TestExecutionRecorder.RecordEnd: test: DockerDemo.Test.UnitTest1.Test1 execution completed.
+TpTrace Warning: 0 : 2936, 14, 2021/08/15, 09:55:21.306, 23959752017, testhost.dll, TestRunCache: InProgressTests is null
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.308, 23959768570, testhost.dll, [xUnit.net 00:00:00.46]   Finished:    DockerDemo.Test
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.308, 23959773436, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.46]   Finished:    DockerDemo.Test"}}
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.313, 23959817491, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 2936, 4, 2021/08/15, 09:55:21.316, 23959850097, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.346, 23960155373, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":5,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.4791081","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"23339796-d14f-471b-0372-580722c42530","FullyQualifiedName":"DockerDemo.Test.UnitTest1.Test1","DisplayName":"DockerDemo.Test.UnitTest1.Test1","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\hp\\source\\repos\\DockerDemo\\DockerDemo.Test\\bin\\Debug\\net5.0\\fine-code-coverage\\build-output\\DockerDemo.Test.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"DockerDemo.Test.UnitTest1.Test1","Messages":[],"ComputerName":"ALLOSPC","Duration":"00:00:00.0026078","StartTime":"2021-08-15T08:55:21.2863324+00:00","EndTime":"2021-08-15T08:55:21.2863934+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+TpTrace Verbose: 0 : 2936, 4, 2021/08/15, 09:55:21.347, 23960159149, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:21.349, 23960182693, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:21.349, 23960184283, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:21.349, 23960184659, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:21.350, 23960187449, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:059094
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:21.350, 23960187814, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:21.350, 23960189027, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:21.350, 23960189421, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 2936, 9, 2021/08/15, 09:55:21.350, 23960190850, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:059094, error:
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:21.350, 23960194651, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 2936, 9, 2021/08/15, 09:55:21.351, 23960195637, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:59094 localEndPoint: [::ffff:127.0.0.1]:59095
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:21.350, 23960194656, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:21.351, 23960196701, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:059094
+TpTrace Verbose: 0 : 2936, 1, 2021/08/15, 09:55:21.351, 23960197155, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 2936, 1, 2021/08/15, 09:55:21.351, 23960197817, testhost.dll, Testhost process exiting.

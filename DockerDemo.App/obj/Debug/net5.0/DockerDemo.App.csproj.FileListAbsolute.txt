@@ -1,0 +1,16 @@
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\DockerDemo.App.exe
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\DockerDemo.App.deps.json
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\DockerDemo.App.runtimeconfig.json
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\DockerDemo.App.runtimeconfig.dev.json
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\DockerDemo.App.dll
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\ref\DockerDemo.App.dll
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\bin\Debug\net5.0\DockerDemo.App.pdb
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.AssemblyInfo.cs
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.dll
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\ref\DockerDemo.App.dll
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.pdb
+C:\Users\hp\source\repos\DockerDemo\DockerDemo.App\obj\Debug\net5.0\DockerDemo.App.genruntimeconfig.cache
